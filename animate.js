@@ -30,9 +30,12 @@ function power4(timeFraction) {
 
 
 function power5 (timeFraction) {
-    return Matn.pow(timeFraction, 5);
+    return Math.pow(timeFraction, 5);
 }
 
+function power100(timeFraction) {
+    return Math.pow(timeFraction, 99);
+}
 
 function OnePointFiveBack(timeFraction) {
     var x = 1.5;
