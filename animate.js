@@ -46,6 +46,10 @@ function feature6(f) {
     return Math.pow(f, 6);
 }
 
+function feature7(f) {
+    return Math.pow(f, 7);
+}
+
 function OnePointFiveBack(timeFraction) {
     var x = 1.5;
     return Math.pow(timeFraction, 2) * ((x + 1) * timeFraction - x);
