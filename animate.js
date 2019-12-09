@@ -1,3 +1,6 @@
+
+// feature-branch-1
+
 function animate({duration, draw, timing, timingType}) {
     let start = performance.now();
     requestAnimationFrame(function animate(time) {
@@ -23,18 +26,25 @@ function power3(timeFractoin) {
     return Math.pow(timeFraction, 3);
 }
 
-
 function power4(timeFraction) {
     return Math.pow(timeFraction, 4);
 }
-
 
 function power5 (timeFraction) {
     return Math.pow(timeFraction, 5);
 }
 
+<<<<<<< HEAD
 function power100(timeFraction) {
     return Math.pow(timeFraction, 99);
+=======
+function feature5(f) {
+    return Math.pow(f, 5);
+}
+
+function feature6(f) {
+    return Math.pow(f, 6);
+>>>>>>> feature-branch-1
 }
 
 function OnePointFiveBack(timeFraction) {
