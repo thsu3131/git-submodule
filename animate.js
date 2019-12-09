@@ -34,17 +34,16 @@ function power5 (timeFraction) {
     return Math.pow(timeFraction, 5);
 }
 
-<<<<<<< HEAD
+
 function power100(timeFraction) {
     return Math.pow(timeFraction, 99);
-=======
+}
 function feature5(f) {
     return Math.pow(f, 5);
 }
 
 function feature6(f) {
     return Math.pow(f, 6);
->>>>>>> feature-branch-1
 }
 
 function OnePointFiveBack(timeFraction) {
